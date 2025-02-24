@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar
+{
+    width: 95%;
+    margin: auto;
+}
+.nav-bar-container
+{
+   padding: 20px 0;
+}
+.nav-bar-container h1
+{
+    color: seagreen;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nav-bar-container .nav{
+justify-self: flex-end;
+display: flex;
+}
+.nav-bar-container .nav a
+{
+    margin: 0 20px;
+    color: black;
+}
+.nav-bar-container .nav .active
+{
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.nav-bar-container .nav .active:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.header
+{
+    width: 83%;
+    margin: 70px auto;
+}
+.container img{
+    width: 100%;
+}
+.container div h3
+{
+    font-size: 70px;
+}
+.container div h3::after
+{
+    content: "";
+    position: absolute;
+    background-color: rgb(128, 128, 136);
+    height: 3px;
+    width: 200px;
+    top: 52%;
+    left: 10%;
+}
+.container div p
+{
+    margin: 30px 0;
+}
+.container div a
+{
+    padding: 15px;
+    background-color: darkgray;
+    margin: 20px 0;
+    display: inline-block;
+    color: black;
+    border-radius: 20px;
+}
+.container div a:hover
+{
+    padding: 15px;
+    background-color: rgb(5, 5, 5);
+    margin: 20px 0;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;   
+}
+.footer
+{
+    margin: 50px 0 0 0;
+    background: gray;
+    padding: 100px 100px;
+}
+.footer .main-container
+{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 2rem;
+}
+.main-container div h4
+{
+  font-size: 25px;
+  margin: 10px 0;
+}
+.main-container div li
+{
+    cursor: pointer;
+    margin: 3px 0;
+}
+hr
+{
+    margin: 20px 0;
+    opacity: .4;
+}
