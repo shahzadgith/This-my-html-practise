@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* .box
+        {
+            border: 10px red solid;
+            padding: 20px 15px 10px 5px;
+            display: inline-block;
+             */
+
+    /* } */
+.container
+{
+    border: 2px red solid;
+    height: 300px;
+    flex-direction:row;
+    display: flex;
+    /* flex-wrap: wrap; box going to another row */
+    /* flex-wrap: wrap-reverse;
+    reverse changing */
+    /* gap: 15px; */
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* flex-flow: wrap row ; */
+    /* justify-content:space-around; create space aound the box */
+    /* justify-content: space-between; create space lsft right not start end */
+    /* justify-content: space-evenly;
+    ju */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* align-content: flex-start;
+     lign-content: flex-end; */
+     /* align-content: .box align-content: ;; */
+     align-content: center;
+     justify-content: start;
+     /* flex: 0 0 200px; flex-grow, flex-shrink, width (use for 3rd command) */
+    
+
+
+}
+.box
+{
+    border: 2px green solid;
+    /* margin: 5px 2px; */
+    padding: 4px 0;
+    flex-basis: 25%;
+    /* align-self: self-start; it target the chil elemnt for giving the dirction  */
+
+}
+#box-1
+{
+    /* order: 1;
+    /* flex-grow: 2;flex grow by default property is zero */
+    /* flex shrink bydefault propert is 1  */
+    flex-shrink: 2; */
+    align-self: stretch;
+}
+#box-3
+{
+    /* flex-basis: 200px; giving width by seprate */
+}
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        shahzad
+    </div>
+    <div class="box" style="padding: 100px;">
+        shahzad
+    </div> -->
+    
+    <div class="container">
+        <div class="box" id="box-1">box 1</div>
+        <div class="box"id="box-2">box 2</div>
+        <div class="box"id="box-3">box 3</div>
+        <div class="box">box 4</div>
+        <div class="box">box 5</div>
+        <div class="box">box 6</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+        <div class="box">box 7</div>
+
+    </div>
+</body>
+</html>
