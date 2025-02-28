@@ -1,0 +1,161 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 36px;
+    }
+  
+    .hero-content p {
+      font-size: 16px;
+    }
+  
+    .shop-now-btn {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  
+    .hero-content p {
+      font-size: 14px;
+    }
+  
+    .shop-now-btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .search-bar {
+      margin: 10px 0;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .navbar {
+      flex-wrap: wrap;
+    }
+  }
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .category-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .category-icon {
+      font-size: 2rem;
+    }
+  
+    .category-card h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .category-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+  
+    .category-icon {
+      font-size: 1.5rem;
+    }
+  
+    .category-card h3 {
+      font-size: 0.9rem;
+    }
+  }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  
+    .about-content {
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .about-content h2 {
+      font-size: 2rem;
+    }
+  
+    .brand-intro, .unique-selling-point {
+      font-size: 1rem;
+    }
+  
+    .about-image img {
+      width: 100%;
+    }
+  }
+  /* Review    */
+  @media (max-width: 768px) {
+    .customer-reviews h2 {
+      font-size: 2rem;
+    }
+  
+    .review-card {
+      padding: 15px;
+    }
+  
+    .feedback {
+      font-size: 0.9rem;
+    }
+  }
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+    .offer-content h2 {
+      font-size: 2rem;
+    }
+  
+    .discount-text {
+      font-size: 1.2rem;
+    }
+  
+    .offer-details {
+      font-size: 1rem;
+    }
+  
+    .timer-box span:first-child {
+      font-size: 1.5rem;
+    }
+  
+    .timer-box span {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  
